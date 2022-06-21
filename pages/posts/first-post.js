@@ -1,14 +1,16 @@
+import Head from 'next/head';
 import Link from 'next/link';
 
 export default function FirstPost() {
   return (
-    <>
-      <h1>First Post</h1>
-      <h2>
-        <Link href="/">
-          <a>Back to home</a>
-        </Link>
-      </h2>
-    </>
+    <div>
+      <Head>
+        <title>最初の投稿</title>
+      </Head>
+      <h1>最初の投稿</h1>
+      <Link href="/">
+        <a>Back to home</a>
+      </Link>
+    </div>
   );
 }
