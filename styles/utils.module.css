@@ -3,7 +3,8 @@
   line-height: 1.2;
   font-weight: 800;
   letter-spacing: -0.05rem;
-  margin: 1rem 0;
+  margin-top: 1rem;
+  margin-bottom: 0;
 }
 
 .headingXl {
@@ -15,18 +16,25 @@
 }
 
 .headingLg {
-  font-size: 1.5rem;
+  font-size: 2rem;
   line-height: 1.4;
-  margin: 1rem 0;
+  margin-top: 0;
+  font-weight: 500;
 }
 
 .headingMd {
-  font-size: 1.2rem;
+  font-size: 2rem;
   line-height: 1.5;
+  font-weight: 550;
+  text-align: center;
 }
 
 .borderCircle {
-  border-radius: 9999px;
+  border-radius: 300px;
+}
+
+.titleText {
+  text-align: left;
 }
 
 .colorInherit {
@@ -48,5 +56,10 @@
 }
 
 .lightText {
-  color: #666;
+  color: #999;
+}
+
+.boldText {
+  color: black;
+  font-weight: 550;
 }
